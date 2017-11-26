@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT ITHE 8086 MICROPROGESSOR 9 lntroduction to 8086 - Microprocessor architecture - Addressing modes - lnstruction set and assembler directives - Assembly language programming - Modular Programming - Linking and Relocation - Stacks - Procedures - Macros - lnterrupts and interrupt service routines - Byte and String Manipulation."
+        android:id="@+id/textView5"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT II8086 SYSTEM BUS STRUCTURE 9 8086 signals - Basic configurations - System bus timing -System design using 8086 - lO prograriming - lntroductioh to Multiprogramming - System Bus Structure - Multiprocessor coniiguratioris - Coprocessor, Closely coupled and loosely Coupled configurations - lntroduction to advanced processors."
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT IIII/O INTERFACING 9 Memory lnterfacing and l/O interfacing - Parallel communication interface - Serial communication interfaie - D/A and A/D lnterface - Timer - Keyboard /display controller - lnterrupt controller - DMA controller - Programming and applications Case studies: Traffic Light control, LED display , LCD display, Keyboard display interface and Alarm Controller."
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT IV MIGROCONTROLLER 9 Architecture of g051 - Special Function Registers(SFRs) - l/O Pins Ports and Circuits - lnstruction set - Addressing modes - Assembly language programming."
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT V INTERFACING MICROCONTROLLER 9 programming 8051 Timers - Serial Port Programming - lnterrupts Programming - LqD &amp; Keyboard lntei-facing -iOC, DAC &amp; Sensor lnterfacing - External Memory lnterface- Stepper Motor and Waveform generation. TOTAL:45 PERIODS"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+</RelativeLayout>

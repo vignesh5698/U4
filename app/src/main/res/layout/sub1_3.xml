@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="                                                                                                                                   UNIT I RANDOM VARIABLES 9+3 Discrete and continuous random variables – Moments – Moment generating functions – Binomial, Poisson, Geometric, Uniform, Exponential, Gamma and Normal distributions.                                                    UNIT II TWO - DIMENSIONAL RANDOM VARIABLES 9+3 Joint distributions – Marginal and conditional distributions – Covariance – Correlation and Linear regression – Transformation of random variables.                                                        UNIT III RANDOM PROCESSES 9+3 Classification – Stationary process – Markov process - Poisson process – Discrete parameter Markov chain – Chapman Kolmogorov equations – Limiting distributions.                                                                   UNIT IV QUEUEING MODELS 9+3 Markovian queues – Birth and Death processes – Single and multiple server queueing models – Little’s formula - Queues with finite waiting rooms – Queues with impatient customers: Balking and reneging.        UNIT V ADVANCED QUEUEING MODELS 9+3 Finite source models - M/G/1 queue – Pollaczek Khinchin formula - M/D/1 and M/EK/1 as special cases – Series queues – Open Jackson networks. TOTAL (L:45+T:15): 60 PERIODS"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                                                                                                                                              UNIT I INTRODUCTION Notion of an Algorithm – Fundamentals of Algorithmic Problem Solving – Important Problem Types – Fundamentals of the Analysis of Algorithm Efficiency – Analysis Framework – Asymptotic Notations and its properties – Mathematical analysis for Recursive and Non-recursive algorithms.                                                                                                                                    UNIT II BRUTE FORCE AND DIVIDE-AND-CONQUER Brute Force - Closest-Pair and Convex-Hull Problems-Exhaustive Search - Traveling Salesman Problem - Knapsack Problem - Assignment problem. Divide and conquer methodology – Merge sort – Quick sort – Binary search – Multiplication of Large Integers – Strassen’s Matrix Multiplication-Closest-Pair and Convex-Hull Problems.                        UNIT III DYNAMIC PROGRAMMING AND GREEDY TECHNIQUE Computing a Binomial Coefficient – Warshall’s and Floyd’ algorithm – Optimal Binary Search Trees – Knapsack Problem and Memory functions. Greedy Technique – Prim’s algorithm- Kruskal&apos;s Algorithm-Dijkstra&apos;s Algorithm-Huffman Trees.                                                                                   UNIT IV ITERATIVE IMPROVEMENT The Simplex Method-The Maximum-Flow Problem – Maximum Matching in Bipartite Graphs- The Stable marriage Problem.                                                                                                  UNIT V COPING WITH THE LIMITATIONS OF ALGORITHM POWER Limitations of Algorithm Power-Lower-Bound Arguments-Decision Trees- P, NP and NP-Complete Problems-Coping with the Limitations - Backtracking – n-Queens problem – Hamiltonian Circuit Problem – Subset Sum Problem-Branch and Bound – Assignment problem – Knapsack Problem – Traveling Salesman Problem- Approximation Algorithms for NP – Hard Problems – Traveling Salesman problem – Knapsack problem."
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="13dp"
+        android:textIsSelectable="true" />
+</RelativeLayout>

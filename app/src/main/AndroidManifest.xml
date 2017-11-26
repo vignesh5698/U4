@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.u4">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.user.u4.Sub1"/>
+        <activity android:name="com.example.user.u4.Sub2"/>
+        <activity android:name="com.example.user.u4.Sub3"/>
+        <activity android:name="com.example.user.u4.Sub4"/>
+        <activity android:name="com.example.user.u4.Sub5"/>
+        <activity android:name="com.example.user.u4.Sub1_1"/>
+        <activity android:name="com.example.user.u4.Sub1_2"/>
+        <activity android:name="com.example.user.u4.Sub1_3"/>
+        <activity android:name="com.example.user.u4.Sub2_1"/>
+        <activity android:name="com.example.user.u4.Sub2_2"/>
+        <activity android:name="com.example.user.u4.Sub2_3"/>
+        <activity android:name="com.example.user.u4.Sub3_1"/>
+        <activity android:name="com.example.user.u4.Sub3_2"/>
+        <activity android:name="com.example.user.u4.Sub3_3"/>
+        <activity android:name="com.example.user.u4.Sub4_1"/>
+        <activity android:name="com.example.user.u4.Sub4_2"/>
+        <activity android:name="com.example.user.u4.Sub4_3"/>
+        <activity android:name="com.example.user.u4.Sub5_1"/>
+        <activity android:name="com.example.user.u4.Sub5_2"/>
+        <activity android:name="com.example.user.u4.Sub5_3"/>
+        <activity android:name="com.example.user.u4.lab"/>
+        <activity android:name="com.example.user.u4.Sub211"/>
+        <activity android:name="com.example.user.u4.Sub212"/>
+        <activity android:name="com.example.user.u4.Sub213"/>
+        <activity android:name="com.example.user.u4.Sub111"/>
+        <activity android:name="com.example.user.u4.Sub112"/>
+        <activity android:name="com.example.user.u4.Sub113"/>
+        <activity android:name="com.example.user.u4.Sub114"/>
+        <activity android:name="com.example.user.u4.Sub115"/>
+        <activity android:name="com.example.user.u4.Sub116"/>
+        <activity android:name="com.example.user.u4.Sub311"/>
+        <activity android:name="com.example.user.u4.Sub312"/>
+        <activity android:name="com.example.user.u4.Sub313"/>
+        <activity android:name="com.example.user.u4.Sub314"/>
+        <activity android:name="com.example.user.u4.Sub315"/>
+        <activity android:name="com.example.user.u4.Sub214"/>
+        <activity android:name="com.example.user.u4.Sub215"/>
+        <activity android:name="com.example.user.u4.Sub216"/>
+        <activity android:name="com.example.user.u4.Sub316"/>
+        <activity android:name="com.example.user.u4.Sub317"/>
+        <activity android:name="com.example.user.u4.Sub318"/>
+        <activity android:name="com.example.user.u4.Sub319"/>
+        <activity android:name="com.example.user.u4.Sub320"/>
+        <activity android:name="com.example.user.u4.Sub411"/>
+        <activity android:name="com.example.user.u4.Sub412"/>
+        <activity android:name="com.example.user.u4.Sub413"/>
+        <activity android:name="com.example.user.u4.Sub414"/>
+        <activity android:name="com.example.user.u4.Sub415"/>
+        <activity android:name="com.example.user.u4.Sub416"/>
+        <activity android:name="com.example.user.u4.Sub511"/>
+        <activity android:name="com.example.user.u4.Sub512"/>
+        <activity android:name="com.example.user.u4.Sub513"/>
+        <activity android:name="com.example.user.u4.Sub514"/>
+        <activity android:name="com.example.user.u4.Sub515"/>
+        <activity android:name="com.example.user.u4.Sub516"/>
+        <activity android:name="com.example.user.u4.B"/>
+        <activity android:name="com.example.user.u4.O"/>
+        <activity android:name="com.example.user.u4.S"/>
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

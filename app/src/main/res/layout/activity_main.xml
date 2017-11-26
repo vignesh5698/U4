@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ee"
+    tools:context="com.example.user.u4.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MICROPROCESSOR AND MICROCONTROLLER"
+        android:id="@+id/b2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROBABILITY AND QUEUEING THEORY"
+        android:id="@+id/b1"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESIGN AND ANALYSIS OF ALGORITHMS"
+        android:id="@+id/b3"
+        android:layout_below="@+id/b2"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPERATING SYSTEMS"
+        android:id="@+id/b4"
+        android:layout_below="@+id/b3"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOFTWARE ENGINEERING"
+        android:id="@+id/b5"
+        android:layout_below="@+id/b4"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HOME"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VM Creation"
+        android:id="@+id/textView"
+        android:textSize="9dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_toEndOf="@+id/b2"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAB MANUAL"
+        android:id="@+id/btn6"
+        android:layout_below="@+id/b5"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Anna Univ-4th Sem IT/CS"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pain makes you stronger.."
+        android:id="@+id/textView22"
+        android:layout_marginBottom="21dp"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+</RelativeLayout>

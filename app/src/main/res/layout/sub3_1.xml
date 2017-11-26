@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vm">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT_1"
+        android:id="@+id/bt1"
+        android:layout_above="@+id/bt4"
+        android:layout_alignRight="@+id/bt3"
+        android:layout_alignEnd="@+id/bt3"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT_4"
+        android:id="@+id/bt45"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/bt2"
+        android:layout_alignStart="@+id/bt2"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT_2"
+        android:id="@+id/bt4"
+        android:layout_above="@+id/bt3"
+        android:layout_alignLeft="@+id/bt3"
+        android:layout_alignStart="@+id/bt3"
+        android:textStyle="bold" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT_3"
+        android:id="@+id/bt3"
+        android:layout_gravity="center_vertical"
+        android:layout_above="@+id/bt45"
+        android:layout_alignRight="@+id/bt45"
+        android:layout_alignEnd="@+id/bt45"
+        android:layout_alignLeft="@+id/bt45"
+        android:layout_alignStart="@+id/bt45"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT_5"
+        android:id="@+id/bt2"
+        android:layout_below="@+id/bt45"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+</RelativeLayout>
